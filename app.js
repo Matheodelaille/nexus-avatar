@@ -88,17 +88,3 @@ function updateXPUI(username, xp, level) {
         text.innerHTML = `${username.toUpperCase()} - LVL ${level} (${xp}/100 XP)`;
     }
 }
-
-// TEST DE RÉCEPTION UNIVERSEL
-socket.onAny((eventName, ...args) => {
-  console.log(`📡 SIGNAL REÇU (Nom: ${eventName}) :`, args);
-});
-
-// VÉRIFICATION D'ÉTAT TOUTES LES 5 SECONDES
-setInterval(() => {
-    if (socket.connected) {
-        console.log("🔗 Statut : Le tuyau est ouvert, en attente de données...");
-    } else {
-        console.log("❌ Statut : Le tuyau est bouché (Déconnecté).");
-    }
-}, 5000);
