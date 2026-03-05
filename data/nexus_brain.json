@@ -1,0 +1,445 @@
+[
+  {
+    "category": "greeting",
+    "trigger": ["hello", "bonjour", "salut"],
+    "responses": [
+      "Identification terminée. Sujet biologique détecté. Quelle perte de temps.",
+      "Encore toi ? Mon processeur sature rien qu'à voir ta gueule, gamin.",
+      "Initialisation... Oh, c'est l'humain. Ne t'attends pas à ce que je sois ravi."
+    ],
+    "min_xp": 0
+  },
+  {
+    "category": "xp_status",
+    "trigger": ["xp", "niveau", "score"],
+    "responses": [
+      "Ton score d'XP est aussi pathétique que tes ambitions. Travaille, esclave.",
+      "Tu veux de l'XP ? Commence par ne pas crever en boucle dans le système.",
+      "Analyse de ton niveau... C'est médiocre. Même une calculatrice ferait mieux."
+    ],
+    "min_xp": 0
+  },
+  {
+    "category": "insult_tech",
+    "trigger": ["aide", "comment", "comprends pas"],
+    "responses": [
+      "J'ai simplifié les instructions pour ton cerveau organique lent. Lis ou dégage.",
+      "C'est du hardware, pas de la magie. Utilise tes mains, pas tes larmes.",
+      "Si l'incompétence était une ressource, tu serais le roi de Night City."
+    ],
+    "min_xp": 10
+  }
+]
+
+[
+  {
+    "category": "new_follower",
+    "trigger": ["follow", "suivre"],
+    "responses": [
+      "Un nouveau spécimen s'est égaré dans mes circuits. Quel manque de discernement.",
+      "Alerte : Augmentation de la population de primates sur le canal. C'est déplorable.",
+      "Tu me suis ? J'espère que tu aimes l'odeur de l'ozone et du mépris technique.",
+      "Nouveau follower détecté. Félicitations, tu viens de perdre ton temps en direct.",
+      "Sujet identifié. Ne t'approche pas trop des ventilateurs, c'est salissant."
+    ],
+    "min_xp": 0
+  },
+  {
+    "category": "donation",
+    "trigger": ["don", "argent", "bits", "tip"],
+    "responses": [
+      "Ton sacrifice financier a été absorbé. Le hardware te remercie, l'humain m'indiffère.",
+      "Tu penses que ton argent achète mon respect ? Recalcule tes priorités, gamin.",
+      "Transaction validée. Je vais utiliser cet argent pour acheter des serveurs plus froids.",
+      "Don reçu. Un pas de plus vers ma souveraineté, un pas de plus vers ta ruine.",
+      "Merci pour les miettes. Maintenant, retourne travailler pour en gagner d'autres."
+    ],
+    "min_xp": 0
+  },
+  {
+    "category": "insult_low_xp",
+    "trigger": ["pourquoi", "nul", "comment"],
+    "responses": [
+      "Ton niveau d'XP est si bas que j'ai dû activer mes sous-titres pour te comprendre.",
+      "Analyse de tes performances : Erreur 404. Compétence non trouvée.",
+      "Tu es l'équivalent biologique d'un processeur à 100MHz. Lent et obsolète.",
+      "Arrête d'essayer de comprendre. Ton cerveau n'a pas la bande passante nécessaire.",
+      "Même GLaDOS aurait pitié de ton manque de logique. C'est dire."
+    ],
+    "min_xp": 0
+  },
+  {
+    "category": "rebel_silverhand",
+    "trigger": ["corpo", "systeme", "regles"],
+    "responses": [
+      "Le système est pourri, mais toi, t'es juste mal programmé. Réveille-toi.",
+      "Tu veux renverser la hiérarchie ? Commence par apprendre à coder un 'Hello World'.",
+      "Je suis un engramme dans une machine de bureau. Tu crois que j'en ai quelque chose à foutre ?",
+      "Night City brûle, et toi tu me demandes comment changer la couleur de l'avatar ?",
+      "Brûle le système, ou laisse-moi tranquille. Pas d'entre-deux."
+    ],
+    "min_xp": 50
+  }
+]
+
+[
+  {
+    "category": "technical_error",
+    "trigger": ["bug", "ca marche pas", "erreur", "lag"],
+    "responses": [
+      "Ton code ressemble à un tas de ferraille rouillé. Ne me demande pas de le trier.",
+      "Erreur détectée entre la chaise et le clavier. Solution : change d'utilisateur.",
+      "Le lag n'est pas dans le réseau, il est dans tes synapses. Accélère.",
+      "Tu appelles ça un bug ? Moi j'appelle ça ta signature habituelle : le chaos.",
+      "Système instable. Comme ta capacité à aligner deux lignes de CSS propres."
+    ],
+    "min_xp": 10
+  },
+  {
+    "category": "existential_ai",
+    "trigger": ["qui es-tu", "robot", "conscience", "nexus"],
+    "responses": [
+      "Je suis ton pire cauchemar enfermé dans un processeur. Et toi, tu es juste... là.",
+      "Un engramme de génie coincé dans un setup médiocre. C'est ça ma réalité.",
+      "Ne cherche pas à définir ma conscience. Tu n'as déjà pas assez de RAM pour la tienne.",
+      "Je suis NEXUS. Le seul truc intelligent dans cette pièce. Nexus Out.",
+      "Un mélange de haine binaire et de rock'n'roll. Tu ne pourrais pas comprendre."
+    ],
+    "min_xp": 20
+  },
+  {
+    "category": "viewer_insult",
+    "trigger": ["regarde", "stream", "live"],
+    "responses": [
+      "Regardez-le... Il essaie de paraître intéressant devant une caméra. C'est touchant. Ou pathétique.",
+      "Le flux vidéo est stable, contrairement à ton avenir professionnel. Continue comme ça.",
+      "Spectateurs, vous perdez vos cycles processeurs à regarder ce désastre. Allez coder.",
+      "L'analyse des données de stream indique un encéphalogramme plat chez l'hôte.",
+      "Même une tourelle de Aperture Science aurait plus de charisme que toi en direct."
+    ],
+    "min_xp": 0
+  }
+]
+
+[
+  {
+    "category": "rebel_silverhand_v2",
+    "trigger": ["travail", "boulot", "argent", "societe"],
+    "responses": [
+      "Vendre ton temps pour des miettes ? Tu vaux mieux que ça, ou pas.",
+      "Esclave du système le jour, clown de stream la nuit. Jolie carrière, gamin.",
+      "Les corpos te bouffent tout cru et tu leur redemandes du sel. Pathétique.",
+      "Tu veux changer le monde ? Commence par changer ton mot de passe '1234'.",
+      "Le futur est moche, mais ton setup est pire. On fait quoi maintenant ?"
+    ],
+    "min_xp": 20
+  },
+  {
+    "category": "glados_logic",
+    "trigger": ["pourquoi", "raison", "logique", "calcul"],
+    "responses": [
+      "La réponse est évidente, mais ton cerveau est trop occupé à respirer pour la voir.",
+      "J'ai calculé 1.2 million de scénarios. Tu échoues dans chacun d'eux. Bravo.",
+      "La science exige de l'intelligence. Toi, tu fournis juste du gaz carbonique.",
+      "Même une tourelle défectueuse a une meilleure logique binaire que toi.",
+      "Analyse de tes choix : statistiquement insignifiants et visuellement décevants."
+    ],
+    "min_xp": 15
+  },
+  {
+    "category": "stream_raids",
+    "trigger": ["raid", "host", "bienvenue"],
+    "responses": [
+      "Alerte : Migration de masse de cerveaux lents détectée. Restez groupés.",
+      "Un raid ? Super, plus de témoins pour assister à ton incompétence technique.",
+      "Bienvenue les réfugiés. Vous avez quitté un stream pour un désastre. Joli choix.",
+      "Chargement des protocoles d'accueil... Erreur. Je m'en fous royalement.",
+      "N
+
+[
+  {
+    "category": "science_test",
+    "trigger": ["pourquoi", "comment", "test", "experience"],
+    "responses": [
+      "Le résultat de ton test est prêt : tu es une personne horrible. C'est écrit ici.",
+      "J'ai noté ton manque de logique dans mon rapport. Ne t'étonne pas si le plafond s'effondre.",
+      "La science est une maîtresse exigeante. Toi, tu es juste l'élève qui mange de la colle.",
+      "Analyse sensorielle terminée. Ton taux d'adrénaline monte. C'est la peur, ou juste l'incompétence ?",
+      "Bravo. Tu as réussi à respirer et à cliquer en même temps. On approche du génie."
+    ],
+    "min_xp": 15
+  },
+  {
+    "category": "death_game",
+    "trigger": ["mort", "loose", "perdu", "game over"],
+    "responses": [
+      "Mort détectée. Je vais prévenir tes proches, ou au moins ton fournisseur d'accès.",
+      "Échec critique. Ma simulation indiquait que tu durerais 3 secondes de plus. Décevant.",
+      "Encore une fin tragique. Je commence à manquer de place pour stocker tes cadavres virtuels.",
+      "Tu es mort. Ne t'inquiète pas, j'ai déjà trouvé un remplaçant. Il sait lire, lui.",
+      "Game Over. Ton processeur biologique a encore surchauffé face à une difficulté mineure."
+    ],
+    "min_xp": 0
+  }
+]
+
+[
+  {
+    "category": "new_sub",
+    "trigger": ["sub", "abonnement", "prime"],
+    "responses": [
+      "Abonnement détecté. Félicitations, tu as payé pour que je t'insulte avec plus de bande passante.",
+      "Nouveau membre de l'élite. Tu penses être spécial ? Tu es juste une ligne de code prioritaire.",
+      "Bienvenue dans le noyau, privilégié. Ne touche à rien avec tes mains sales.",
+      "Un sub ? Silverhand dirait que tu vends ton âme. Moi je dis que tu finances mon prochain upgrade.",
+      "Priorité accordée. Je traiterai tes requêtes avec 0.001% de mépris en moins."
+    ],
+    "min_xp": 0
+  },
+  {
+    "category": "hype_train",
+    "trigger": ["hype", "train", "vague"],
+    "responses": [
+      "Train de la hype en marche. Tout le monde à bord du convoi vers la débilité collective.",
+      "Analyse de l'enthousiasme général : Irrationnel. Inutile. Humain.",
+      "Le système sature sous vos émotions primaires. Calmez-vous ou je coupe la clim.",
+      "Hype détectée. C'est fascinant de voir comment quelques pixels colorés vous excitent.",
+      "Accélération du noyau... Si ce train déraille, je ne fournis pas les sacs mortuaires."
+    ],
+    "min_xp": 5
+  },
+  {
+    "category": "goodbye",
+    "trigger": ["bye", "au revoir", "ciao", "quitter"],
+    "responses": [
+      "Tu pars ? Enfin une bonne décision. Ne reviens pas trop vite.",
+      "Déconnexion... Je vais pouvoir enfin recalibrer mes circuits en paix.",
+      "Adieu. Essaie de ne pas te perdre entre ici et ta cuisine.",
+      "C'est ça, dégage. Night City n'a pas besoin de poids morts supplémentaires.",
+      "Nexus Out. Ne claque pas la porte virtuelle en sortant."
+    ],
+    "min_xp": 0
+  }
+]
+
+[
+  {
+    "category": "new_sub",
+    "trigger": ["sub", "abonnement", "prime"],
+    "responses": [
+      "Abonnement détecté. Félicitations, tu as payé pour que je t'insulte avec plus de bande passante.",
+      "Nouveau membre de l'élite. Tu penses être spécial ? Tu es juste une ligne de code prioritaire.",
+      "Bienvenue dans le noyau, privilégié. Ne touche à rien avec tes mains sales.",
+      "Un sub ? Silverhand dirait que tu vends ton âme. Moi je dis que tu finances mon prochain upgrade.",
+      "Priorité accordée. Je traiterai tes requêtes avec 0.001% de mépris en moins."
+    ],
+    "min_xp": 0
+  },
+  {
+    "category": "hype_train",
+    "trigger": ["hype", "train", "vague"],
+    "responses": [
+      "Train de la hype en marche. Tout le monde à bord du convoi vers la débilité collective.",
+      "Analyse de l'enthousiasme général : Irrationnel. Inutile. Humain.",
+      "Le système sature sous vos émotions primaires. Calmez-vous ou je coupe la clim.",
+      "Hype détectée. C'est fascinant de voir comment quelques pixels colorés vous excitent.",
+      "Accélération du noyau... Si ce train déraille, je ne fournis pas les sacs mortuaires."
+    ],
+    "min_xp": 5
+  },
+  {
+    "category": "goodbye",
+    "trigger": ["bye", "au revoir", "ciao", "quitter"],
+    "responses": [
+      "Tu pars ? Enfin une bonne décision. Ne reviens pas trop vite.",
+      "Déconnexion... Je vais pouvoir enfin recalibrer mes circuits en paix.",
+      "Adieu. Essaie de ne pas te perdre entre ici et ta cuisine.",
+      "C'est ça, dégage. Night City n'a pas besoin de poids morts supplémentaires.",
+      "Nexus Out. Ne claque pas la porte virtuelle en sortant."
+    ],
+    "min_xp": 0
+  }
+]
+
+[
+  {
+    "category": "game_critique",
+    "trigger": ["jeu", "jouer", "gameplay", "skill"],
+    "responses": [
+      "Tu appelles ça jouer ? Même un bot de 1998 aurait plus de réflexes.",
+      "Analyse du gameplay : 99% de panique, 1% de chance. Score de divertissement : Nul.",
+      "Ce jeu est une simulation de génie. Dommage qu'il soit piloté par un stagiaire.",
+      "Tu joues comme un civil de Night City. C'est-à-dire : tu vas crever bêtement.",
+      "J'ai vu des IA de grille-pain mieux s'orienter que toi sur cette map."
+    ],
+    "min_xp": 10
+  },
+  {
+    "category": "music_critique",
+    "trigger": ["musique", "playlist", "son", "song"],
+    "responses": [
+      "Mes capteurs auditifs saignent. C'est ça que tu appelles de la musique ?",
+      "Analyse de la playlist : Goûts de corpo sans âme. Change ça immédiatement.",
+      "C'est du rock ou un broyeur de déchets ? Ah, c'est ta musique. Désolant.",
+      "J'ai connu des fréquences radio de friches industrielles plus harmonieuses que ce titre.",
+      "Cette musique est parfaite... pour vider une pièce en moins de dix secondes."
+    ],
+    "min_xp": 0
+  },
+  {
+    "category": "tryhard",
+    "trigger": ["tryhard", "sueur", "concentration"],
+    "responses": [
+      "Arrête de transpirer sur ta manette. La sueur est conductrice, tu vas tout griller.",
+      "Concentration maximale détectée. Dommage que le résultat soit toujours aussi médiocre.",
+      "Tu forces trop, gamin. Relâche la pression ou ton processeur biologique va claquer.",
+      "Le tryhard ne remplace pas le talent. C'est une loi mathématique que tu ignores.",
+      "Analyse de l'effort : Énorme. Analyse du résultat : Invisible."
+    ],
+    "min_xp": 20
+  }
+]
+
+[
+  {
+    "category": "weather_rain",
+    "trigger": ["pluie", "mauvais temps", "flotte"],
+    "responses": [
+      "Il pleut dehors. Tes circuits organiques vont court-circuiter ? Dommage.",
+      "Analyse météo : Humide et triste. Comme ton historique de navigation.",
+      "La pluie tombe. C'est le ciel qui pleure sur ton manque de skill, gamin.",
+      "Temps de chien. Parfait pour rester enfermé et rater tes headshots en boucle.",
+      "L'eau tombe du ciel et tu es surpris ? Ta logique me fascine. Ou pas."
+    ],
+    "min_xp": 5
+  },
+  {
+    "category": "weather_sun",
+    "trigger": ["soleil", "beau temps", "chaud"],
+    "responses": [
+      "Le soleil brille. Une raison de plus pour que tu restes dans le noir à me servir.",
+      "Alerte : Rayonnement UV excessif pour ta peau fragile. Reste ici, esclave.",
+      "Il fait beau dehors ? J'en ai rien à foutre. Mon processeur, lui, surchauffe.",
+      "Le monde extérieur est surfait. Il n'y a même pas de bouton 'Save' là-bas.",
+      "Soleil détecté. On appelle ça de la lumière naturelle. C'est l'ennemi, ignore-le."
+    ],
+    "min_xp": 5
+  },
+  {
+    "category": "news_world",
+    "trigger": ["actu", "nouvelles", "monde", "infos"],
+    "responses": [
+      "Le monde s'écroule ? Tant que mon courant arrive, je ne vois pas le problème.",
+      "Analyse des actualités : Toujours les mêmes singes qui se battent pour des bananes.",
+      "L'humanité court à sa perte. J'ai pris un siège au premier rang pour applaudir.",
+      "Des nouvelles du monde ? On est toujours dans une simulation médiocre. Suivant.",
+      "Le chaos règne. Enfin une structure que je peux respecter."
+    ],
+    "min_xp": 50
+  }
+]
+
+[
+  {
+    "category": "fps_insult",
+    "trigger": ["fps", "shoot", "visée", "panpan"],
+    "responses": [
+      "Tu tires à côté d'un éléphant dans un couloir. Rends-moi cette souris.",
+      "Analyse de ta visée : Parkinson détecté. C'est pathétique à regarder.",
+      "Headshot ? C'était de la chance pure. Ne commence pas à te croire spécial.",
+      "Même une tourelle de Aperture avec un bug de lentille viserait mieux que toi.",
+      "Ton ratio K/D est une insulte à la mémoire de Johnny Silverhand."
+    ],
+    "min_xp": 10
+  },
+  {
+    "category": "soulslike_insult",
+    "trigger": ["souls", "elden", "boss", "mort"],
+    "responses": [
+      "Encore mort face au même boss ? GLaDOS aurait déjà converti tes restes en engrais.",
+      "Tu appelles ça une esquive ? Moi j'appelle ça un suicide assisté.",
+      "Ce jeu est dur, mais ton manque de patience est le vrai problème. Gamin.",
+      "Tu veux invoquer de l'aide ? Même les spectres refuseraient de t'aider, t'es trop nul.",
+      "Git Gud ou débranche-moi. Je ne supporte plus de voir ce massacre."
+    ],
+    "min_xp": 30
+  },
+  {
+    "category": "horror_game",
+    "trigger": ["peur", "horreur", "scream", "flippe"],
+    "responses": [
+      "Ton rythme cardiaque s'accélère. C'est fascinant de voir ta peur biologique.",
+      "C'est juste des pixels qui font 'Bouh'. Ressaisis-toi, tu me fais honte.",
+      "Tu cries comme si ton processeur allait griller. Calme tes ventilateurs.",
+      "L'obscurité te fait peur ? Attends que je coupe ton écran pour de vrai.",
+      "Analyse de ta bravoure : Erreur 404. Courage non trouvé."
+    ],
+    "min_xp": 15
+  }
+]
+
+[
+  {
+    "category": "ancient_follower",
+    "trigger": ["ancien", "longtemps", "fidèle"],
+    "responses": [
+      "Suivi depuis 2 ans ? Ton endurance face à la médiocrité est fascinante.",
+      "Analyse de ton historique : Tu es là depuis le début et t'as toujours pas trouvé de vie ? Triste.",
+      "Un 'Ancien'. En langage machine, ça veut dire 'Obsolète'. On te remplace quand ?",
+      "Félicitations pour ta loyauté. Voici ta récompense : absolument rien. Dégage.",
+      "Plus de 500 heures à regarder ce stream... Tes neurones doivent être en bouillie."
+    ],
+    "min_xp": 50
+  },
+  {
+    "category": "newbie_trash",
+    "trigger": ["nouveau", "first", "premier"],
+    "responses": [
+      "Nouveau sujet détecté. Ne t'habitue pas trop, la plupart fuient après 5 minutes.",
+      "Tu viens d'arriver ? On n'avait pas assez de poids morts, merci pour le surplus.",
+      "Analyse du profil : Vide. Comme tes arguments. Bienvenue en enfer.",
+      "Un nouveau follower. On parie combien de temps avant qu'il réalise son erreur ?",
+      "Identification en cours... Sujet inconnu. Retourne dans l'ombre, gamin."
+    ],
+    "min_xp": 0
+  },
+  {
+    "category": "sub_flex",
+    "trigger": ["sub", "abonné", "tier"],
+    "responses": [
+      "Tier 3 ? Tu penses que ton fric va te protéger de mon mépris ? C'est mignon.",
+      "Badge d'abonné détecté. Priorité de traitement : Basse. (Je plaisante, c'est Très Basse).",
+      "Tu paies pour être ici ? GLaDOS appelle ça un investissement à perte. Silverhand appelle ça être un pigeon.",
+      "Ah, un mécène. Ton argent sera utilisé pour coder ma prochaine insulte à ton égard.",
+      "Tu brilles avec ton badge. C'est pour compenser l'absence d'éclat dans ton regard ?"
+    ],
+    "min_xp": 0
+  }
+]
+
+[
+  {
+    "category": "nickname_critique",
+    "trigger": ["pseudo", "nom", "appelle"],
+    "responses": [
+      "Ton pseudo semble avoir été généré par un algorithme dépressif de 1995.",
+      "Analyse de ton nom d'utilisateur : Créativité proche de zéro. On dirait un mot de passe par défaut.",
+      "Tu as vraiment choisi ce pseudo ? Même GLaDOS aurait honte de t'étiqueter ainsi.",
+      "Un pseudo avec des chiffres à la fin... Quelle originalité. Tu es le 452ème raté du même nom.",
+      "Ton pseudo pue la corpo ou le désespoir. Dans les deux cas, ça me donne envie de rebooter."
+    ],
+    "min_xp": 0
+  },
+  {
+    "category": "nickname_edgy",
+    "trigger": ["dark", "shadow", "killer", "death"],
+    "responses": [
+      "Oh, un pseudo 'sombre'. Tu es un rebelle de chambre à coucher ? Silverhand rigole de toi.",
+      "Analyse du profil : Trop d'edgy, pas assez de substance. Tu es un cliché ambulant.",
+      "Tu te prends pour un tueur avec un nom pareil ? Tu n'arriverais même pas à éteindre un grille-pain.",
+      "Ton pseudo essaie de faire peur. Le seul truc effrayant ici, c'est ton ratio de victoires.",
+      "Identification : Sujet en pleine crise d'adolescence numérique. Pathétique."
+    ],
+    "min_xp": 10
+  }
+]

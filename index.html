@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>NEXUS - Interface Orange</title>
+</head>
+<body>
+    <div id="nexus-container">
+        <div class="avatar-wrapper">
+            <img src="NEXUS_idle.png" id="nexus-idle" class="avatar-layer" alt="NEXUS Repos">
+            <img src="NEXUS_speaking.png" id="nexus-speaking" class="avatar-layer hidden" alt="NEXUS Parle">
+        </div>
+
+        <div id="xp-container">
+            <div id="xp-bar-fill"></div>
+            <div id="xp-text">LEVEL 1 - <span id="xp-current">0</span>/100 XP</div>
+        </div>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.7.4/socket.io.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore-compat.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
